@@ -3,7 +3,7 @@ create Database if not exists ANP;
 -- -- suppose you are not giving any primary key while inserting data so it will automatically insert a key form its
 create table student( sutdentId int primary key, studentName varchar(25) , studentMarks int);
 CREATE TABLE Employee (
-  id INT PRIMARY KEY,
+  id INT PRIMARY KEY, 
   name VARCHAR(50) NOT NULL,
   city VARCHAR(50) NOT NULL,
   state VARCHAR(50) NOT NULL,
