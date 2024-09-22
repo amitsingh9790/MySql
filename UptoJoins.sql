@@ -2,7 +2,7 @@ create database if not exists learnvern;
 -- shortcut toexecute ctr+enter
 -- unsinged = can't be negative
 drop database learnvern;
-create table products (pro_id int primary key not null auto_increment, prod_code char(4) not null, name varchar(15) not null, quantity int unsigned not null default 0, price decimal(10,2) not null default 99999.99);
+create table products (pro_id int primary key not null auto_increment, prod_code char(4) not null, name varchar(15) not null, quantity int unsigned not null default 0, price decimal(10,2) not null default 99999.99); 
 insert into products values(101,"Mark","bluemarker",500,10.55);
 insert into products values(null,"Mark","readmarker",1500,8.33);
 insert into products values(null,"Mark","bluemarker",1200,3.44);
