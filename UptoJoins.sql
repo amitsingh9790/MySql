@@ -8,7 +8,7 @@ insert into products values(null,"Mark","readmarker",1500,8.33);
 insert into products values(null,"Mark","bluemarker",1200,3.44);
 insert into products values(null,"Mark","whitemarker",1100,9.44),(null,"Mark","whitemarker",1200,5.4);
 insert into products (prod_code, name, quantity, price) values ("Pen" ,"Blackmarker", 300, 4.33);
--- select pro_id, prod_code, name, price from products where name like "b_ue%" and prod_code="mark";
+-- select pro_id, prod_code, name, price from products where name like "b_ue%" and  prod_code="mark";
 -- select * from products where quantity <1500 and prod_code = 'mark';
 alter table products add pro_expiry int not null default 0 after pro_id;
 alter table products modify name varchar(100) not null;
